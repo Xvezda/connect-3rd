@@ -1,0 +1,46 @@
+/* 
+  Localize.strings
+  BoostCamp
+
+  Created by Xvezda on 12/8/18.
+  Copyright © 2018 Xvezda. All rights reserved.
+*/
+
+// MARK: - Error Messages
+
+"unknown_error" = "알 수 없는 오류가 발생했습니다.\n개발자에게 문의하세요.";
+"empty_domain_error" = "info.plist로 부터 도메인 정보를 가져올 수 없습니다.";
+"network_error" = "데이터를 가져오는데 실패했습니다.\n네트워크 설정을 확인해주세요.";
+"load_movie_detail_error" = "영화 상세정보를 가져오는데 실패했습니다.";
+"load_movie_comment_error" = "영화 한줄평 목록을 가져오는데 실패했습니다.";
+
+// MARK: - Common Strings
+
+"movie_list" = "영화목록";
+"table" = "Table";
+"collection" = "Collection";
+"one_line_comment" = "한줄평";
+"movie_credit" = "감독/출연";
+"director" = "감독";
+"actor" = "출연";
+"movie_synopsis" = "줄거리";
+"movie_reservation_rate" = "예매율";
+"movie_user_rating" = "평점";
+"movie_audience" = "누적관객수";
+
+// MARK: - Sort Method Strings
+
+"sort_method_title" = "정렬방식 선택";
+"sort_method_desc" = "영화를 어떤 순서로 정렬할까요?";
+
+"advance_rate" = "예매율순";
+"curation" = "큐레이션";
+"release_date" = "개봉일순";
+"cancel" = "취소";
+
+// MARK: - Format Strings
+
+"movie_list_info_table_view_fmt" = "평점: %.3g 예매순위: %d 예매율: %.3g\n개봉일: %@";
+"movie_list_info_collection_view_fmt" = "%d위(%.3g) / %.3g%%\n%@";
+"movie_detail_reservation_rate_fmt" = "%d위 %.3g%%";
+"movie_detail_info_fmt" = "%@ 개봉\n%@/%d분";
